@@ -69,7 +69,7 @@
 
     window.chart1 = new Highcharts.StockChart($.extend(chartOptions, {
       title: {
-        text: 'UFSM, prédio 13, sala 1105-D'
+        text: 'Escola Prof. Naura Teixeira Pinheiro, sala 20'
       },
       chart: {
         renderTo: 'grafico-sala',
@@ -109,7 +109,7 @@
 
       $.ajax({
 
-        url: "https://dl.dropboxusercontent.com/s/jijx4dkcks3d1i9/UTxt_13-1105-D_naura.txt"
+        url: "https://dl.dropboxusercontent.com/s/v790yrsti63hjbd/UTxt_Naura-20.txt"
 
       }).done(function(data) {
 
