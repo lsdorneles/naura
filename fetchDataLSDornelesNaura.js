@@ -69,7 +69,7 @@
 
     window.chart1 = new Highcharts.StockChart($.extend(chartOptions, {
       title: {
-        text: 'Escola Prof. Naura Teixeira Pinheiro, sala 20'
+        text: 'Escola Prof. Naura Teixeira Pinheiro, interno, sala 20'
       },
       chart: {
         renderTo: 'grafico-sala',
